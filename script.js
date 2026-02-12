@@ -25,14 +25,14 @@ const products = [
     personnalisable: false
   },
   {
-    id: 'boucles-madeleine',
-    name: 'Boucles Madeleine',
+    id: 'boucles-flavie',
+    name: 'Boucles Flavie',
     category: 'boucles',
-    materials: 'Laiton plaqué or jaune et perle blanche',
+    materials: 'Laiton plaqué or jaune et perle résine bleu et rouge',
     price: '23€',
     details: 'à tiges',
-    description: 'Ces boucles d’oreilles fleurs seraient magnifiques au quotidien ou comme bijoux de mariée !',
-    images: ['image3.jpg','image7.jpg','image53.jpg'],
+    description: 'Ces boucles d’oreilles avec pendentifs, colorent une tenue',
+    images: ['IMG_9255.jpeg','IMG_flavie.jpeg'],
     personnalisable: false
   },
   {
@@ -594,6 +594,7 @@ function renderProductCategories() {
 
 // Initialisation des catégories
 renderProductCategories();
+
 
 
 
